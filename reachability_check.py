@@ -1,10 +1,15 @@
+import sys
 import csv
 import ipaddress
 import platform
 import subprocess
 from datetime import datetime
 
-INPUT_FILE = "devices.csv"
+if len(sys.argv) > 1:
+    INPUT_FILE = sys.argv[1]
+else:
+    INPUT_FILE = "devices.csv"
+
 OUTPUT_FILE = "results.csv"
 
 def ping_device(ip_address):
