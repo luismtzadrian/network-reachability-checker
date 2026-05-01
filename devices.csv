@@ -3,3 +3,4 @@ google_dns,8.8.8.8
 cloudflare_dns,1.1.1.1
 pixel_tether_gateway,192.168.226.241
 fake_device,192.0.2.1
+bad_device,999.999.999.999

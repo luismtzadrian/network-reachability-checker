@@ -1,4 +1,5 @@
 import csv
+import ipaddress
 import platform
 import subprocess
 from datetime import datetime
@@ -34,6 +35,12 @@ def main():
         for device in reader:
             hostname = device["hostname"]
             ip = device["ip"]
+
+            try:
+                ipaddress.ip_address(ip)
+            except ValueError:
+                print(f"Invalid IP address for {hostname}: {ip}")
+                continue
 
             reachable = ping_device(ip)
 
