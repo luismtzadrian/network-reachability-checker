@@ -1,0 +1,9 @@
+hostname,ip
+google_dns,8.8.8.8
+cloudflare_dns,1.1.1.1
+quad9_dns,9.9.9.9
+pixel_gateway,192.168.226.241
+local_unused,192.168.226.250
+lab_server,10.255.255.1
+bad_ip_1,999.999.999.999
+bad_ip_2,abc.def.ghi.jkl
