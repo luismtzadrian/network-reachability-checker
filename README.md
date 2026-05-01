@@ -106,5 +106,5 @@ lab_server,10.255.255.1,False,2026-04-30T18:10:46
 
 ## About
 
-Built by [Adrian Martinez](https://iamadrian.tech) — Network Associate Director | CCNP | NetOps Automation  
+Built by [Luis Adrian Martinez Vergara](https://iamadrian.tech) — Network Associate Director | CCNP | NetOps Automation  
 Part of a 100-day first-principles engineering challenge.
